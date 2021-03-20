@@ -1,0 +1,33 @@
+body {
+   background-color: aquamarine; 
+}
+
+header {
+    font-family: fantasy;
+    background-color:rgb(243, 205, 234);
+    font-size: 50px;
+    color: rgb(165, 252, 230);
+    text-outline: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+    border: 15px black;
+}
+
+.header, h1 {
+    margin-left: 10px;
+}
+
+div ul {
+    position: absolute; top:0px; right: 40px; 
+    display: flex; 
+}
+
+li {
+ margin-left: 30px; 
+}
+
+li:hover {
+    cursor: pointer;
+}
+
