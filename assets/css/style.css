@@ -14,11 +14,47 @@ header {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
-.header, h1 {
+.header {
     margin-left: 20px;
     
 }
 
+.content {  
+    
+    width: 75%;
+    background-color: lavender;
+    border-bottom-right-radius: 25px ;
+    border-top-right-radius: 25px;
+}
+
+
+.text {
+    margin-left: 70px;
+    margin-top: -50px;
+    
+    
+}
+
+
+.about-me {
+    
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+
+.selfie {
+    display: flex; 
+    justify-content: center;
+    border-radius: 150px;
+    height: auto;
+    width: 300px;
+}
 
 ul {
     /*position: absolute; top:0px; right: 40px; */
@@ -26,6 +62,7 @@ ul {
     flex-wrap: wrap;
    
 }
+
 
 li {
  margin-left: 30px; 
