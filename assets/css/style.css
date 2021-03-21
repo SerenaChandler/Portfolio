@@ -253,6 +253,9 @@ a:visited {
 
     .text-pic {
         margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
     }
     
     .work {
