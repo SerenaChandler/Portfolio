@@ -19,10 +19,11 @@ header {
 }
 
 
-ul {
+.nav-link {
     
     display: flex;
     flex-wrap: wrap;
+    
    
 }
 
@@ -91,11 +92,8 @@ li {
 }
 .pastel-image {
     display: flex;
-    
-.photos {
-    display: flex;
-} 
 }
+
 .surf {
    
     position: relative;
@@ -134,22 +132,31 @@ li {
 
 .contact-me {
     border-radius: 25px;
-    display: flex;
-    flex-wrap: wrap;
+   
+    
     background-color: rgb(255, 255, 255);
     margin-top: 100px;
     font-size: 40px;
+    max-height: 300px;
+    
+    
 }
 
 .contact-me-text {
-    display: inline;
-    text-decoration: underline;
-    padding: 5px;
-   position: relative;
-   bottom: 43px;
-   left: 20px;
-   background-color: white;
-   border-radius: 25px;
+    display: inline-block;
+      position: relative;
+      bottom: 50px;
+      left: 15px;
+      background-color: white;
+  
+}
+
+
+.contact-link {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: fantasy;
+    
 }
 
 .resume {
@@ -169,7 +176,8 @@ li {
    bottom: 43px;
    left: 20px;
    background-color: white;
-   border-radius: 25px;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
 }
 
 .surf:hover {
