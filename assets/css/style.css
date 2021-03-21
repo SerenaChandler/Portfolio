@@ -1,5 +1,5 @@
 body {
-   background:linear-gradient(rgb(255, 186, 244),rgb(190, 240, 255), rgb(255, 247, 247));
+   background:linear-gradient(rgb(255, 186, 244),rgb(190, 240, 255), rgb(255, 186, 244));
 }
 
 header {
@@ -46,7 +46,7 @@ li {
   text-decoration: underline;
     padding: 10px;
    position: relative;
-   bottom: 50px;
+   bottom: 40px;
    left: 20px;
    background-color: white;
    border-top-left-radius: 25px;
@@ -63,6 +63,7 @@ li {
     border-radius: 150px;
     height: 300px;
     max-width: 300px;
+    border: solid 3px rgb(255, 196, 232);
 }
 
 
@@ -79,7 +80,7 @@ li {
     text-decoration: underline;
     padding: 5px;
    position: relative;
-   bottom: 45px;
+   bottom: 43px;
    left: 20px;
    background-color: white;
    border-radius: 25px;
@@ -95,25 +96,34 @@ li {
     display: flex;
 } 
 }
-.surf-box {
+.surf {
+   
     position: relative;
     text-align: center;
     color: rgb(0, 0, 0);
+    
 }
 .surf {
-    margin-top: 10px;
+    margin: 20px;
     border-radius: 150px;
     width: 1000px;
     min-width: 100px;
-    border: solid 5px black;
-    margin-right: 10px;
+    height: 700px;
     text-align: center;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
     
 }
+
+.surf-image {
+    border: black solid 5px;
+    border-radius: 150px;
+    height: 700px;
+    width: 1000px;
+}
 .image {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
     border: solid 5px black;
     border-radius: 150px;
     min-width: 300px;
@@ -122,14 +132,52 @@ li {
     max-height: 400px;
 }
 
-.surf:hover {
-    box-shadow: 0px 0px 20px black;
-    
+.contact-me {
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    font-size: 40px;
 }
-.surf-box:hover {
+
+.contact-me-text {
+    display: inline;
+    text-decoration: underline;
+    padding: 5px;
+   position: relative;
+   bottom: 43px;
+   left: 20px;
+   background-color: white;
+   border-radius: 25px;
+}
+
+.resume {
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.resume-text {
+    display: inline;
+    text-decoration: underline;
+    padding: 5px;
+   position: relative;
+   bottom: 43px;
+   left: 20px;
+   background-color: white;
+   border-radius: 25px;
+}
+
+.surf:hover {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     color: rgb(71, 255, 246);
+    box-shadow: 0px 0px 30px black;
+    cursor: pointer;
 }
 
 .surf-text {
@@ -141,9 +189,9 @@ li {
 }
 
 
-li:hover {
+a:hover {
     cursor: pointer;
-    text-shadow: 0px 0px 20px rgb(121, 255, 255);
+    text-shadow: 0px 0px 20px rgb(43, 147, 155);
 }
 
 a:link {
@@ -155,7 +203,9 @@ a:link {
   }
 
 a:visited {
+    
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     color: rgb(112, 245, 255);
 }
+
