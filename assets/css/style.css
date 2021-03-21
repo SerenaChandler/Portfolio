@@ -150,7 +150,7 @@ li {
     text-decoration: underline;
     display: inline-block;
       position: relative;
-      bottom: 50px;
+      bottom: 45px;
       left: 15px;
       background-color: white;
   
@@ -158,6 +158,7 @@ li {
 
 
 .contact-link {
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
     font-family: fantasy;
@@ -224,3 +225,36 @@ a:visited {
     color: rgb(112, 245, 255);
 }
 
+@media screen and (max-width: 500px) {
+    
+
+    header {
+        display: flex;
+        flex-direction: column;
+        
+        font-family: fantasy;
+        background: linear-gradient(rgb(255, 255, 255),rgb(245, 193, 255));
+        font-size: 70px;
+        color: rgb(255, 198, 247);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        border: solid 5px rgb(255, 255, 255);
+    }
+
+    .nav-link {
+        text-decoration: underline;
+        text-decoration-color: blue ;
+        
+    }
+    
+    .surf-image, .surf-text, .surf {
+        max-height: 400px;
+        max-width: 400px;
+        
+    }
+
+    .calc-image, .pastel-image {
+        display: flex;
+        flex-direction: column;
+    }
+}
