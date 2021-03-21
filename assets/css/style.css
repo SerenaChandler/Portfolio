@@ -243,6 +243,7 @@ a:visited {
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: black;
         border: solid 5px rgb(255, 255, 255);
+        min-width: 500px;
     }
 
     .nav-link {
