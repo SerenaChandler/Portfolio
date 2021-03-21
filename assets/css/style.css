@@ -252,9 +252,16 @@ a:visited {
     }
 
     .text-pic {
-        margin-right: 10px;
+        margin-right: 100px;
     }
     
+    .work {
+        min-width: 500px;
+    }
+
+    .about-me {
+        min-width: 500px;
+    }
     
     .surf-image, .surf {
         max-height: 400px;
