@@ -1,59 +1,61 @@
 body {
-   background-color: rgb(122, 122, 122); 
+   background:linear-gradient(rgb(255, 186, 244), rgb(255, 247, 247));
 }
-
 
 header {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
     font-family: fantasy;
-    background-color:rgb(141, 164, 241);
+    background: linear-gradient(rgb(255, 255, 255),rgb(245, 193, 255));
     font-size: 70px;
     color: rgb(255, 198, 247);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+    border: solid 5px rgb(255, 255, 255);
 }
 .header {
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
-
-.content {  
-    
-    width: 75%;
-    background-color: lavender;
-    border-bottom-right-radius: 25px ;
-    border-top-right-radius: 25px;
-}
-
-
-.text {
-    margin-left: 70px;
-    margin-top: -50px;
-    
-    
-}
-
 
 .about-me {
-    
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    font-size: 40px;
+    border-radius: 25px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.selfie {
+    display: flex;
+    border-radius: 150px;
+    height: 300px;
+    max-width: 300px;
+}
+
+
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
     margin-top: 100px;
     font-size: 40px;
 }
-
-.description {
-    display: flex;
-    justify-content: center;
-}
-
-
-.selfie {
-    display: flex; 
-    justify-content: center;
+.surf {
     border-radius: 150px;
-    height: auto;
-    width: 300px;
+    width: 1000px;
+    border: solid 5px black;
+    margin-right: 10px;
+}
+.image {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 5px black;
+    border-radius: 150px;
+    max-width: 500px;
+    max-width: 500px;
 }
 
 ul {
@@ -71,6 +73,6 @@ li {
 
 li:hover {
     cursor: pointer;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 20px rgb(121, 255, 255);
 }
 
