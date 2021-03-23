@@ -11,3 +11,74 @@ whenever I actually get one.
 
 ## code snippet (example of media query)
 ```CSS
+
+    
+@media screen and (max-width: 768px) {
+    
+
+    header {
+        display: flex;
+        flex-direction: column;
+        
+        font-family: fantasy;
+        background: linear-gradient(rgb(255, 255, 255),rgb(245, 193, 255));
+        font-size: 70px;
+        color: rgb(255, 198, 247);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        border: solid 5px rgb(255, 255, 255);
+        min-width: 500px;
+    }
+
+    .nav-link {
+        text-decoration: underline red;
+        
+        
+    }
+
+.selfie {
+    width: auto;
+    height: auto;
+}
+
+    .text-pic {
+        margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+    
+    .work {
+        min-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-me {
+        min-width: 500px;
+    }
+    
+    .surf-image, .surf {
+        max-height: 300px;
+        max-width: 300px;
+              
+        
+    }
+
+    .surf-text {
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        font-size: 50px;  
+    }
+
+    .photos {
+        margin-left: 100px;
+    }
+   
+}
+```
+
+## My Links
+[Github](https://github.com/SerenaChandler)
