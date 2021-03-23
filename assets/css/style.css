@@ -1,5 +1,6 @@
 body {
    background:linear-gradient(rgb(255, 186, 244),rgb(190, 240, 255), rgb(255, 186, 244));
+   font-family: fantasy;
 }
 
 header {
@@ -88,27 +89,13 @@ li {
    border-top-right-radius: 25px;
 }
 
-.calc-image {
-    display: flex;
-}
-.pastel-image {
-    display: flex;
-}
 
-.surf {
-   
-    position: relative;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    
-}
 .surf {
     margin: 20px;
     border-radius: 150px;
     width: 1000px;
     min-width: 100px;
     height: 700px;
-    text-align: center;
     position: relative;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -130,14 +117,61 @@ li {
     font-size: 100px;   
 }
 
-.image {
+
+.photos {
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 150px;
+  
+    
+}
+
+
+
+.led, .calc, .pastel, .run {
+    position: relative;
+    text-align: center;
+    
+}
+
+.led-text {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
+}
+
+.calc-text {
+    position: absolute;
+    top: 40%;
+    left: 35%;    
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
+}
+
+.pastel-text, .run-text {
+    position: absolute;
+    top: 35%;
+    left: 45%;    
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
+}
+
+
+.led-image, .calc-image, .pastel-image, .run-image {
+    
     margin: 10px;
     border: solid 5px black;
     border-radius: 150px;
-    min-width: 300px;
-    min-height: 300px;
-    max-width: 400px;
-    max-height: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .contact-me {
@@ -289,11 +323,10 @@ a:visited {
         font-size: 100px;  
     }
 
-    .calc-image, .pastel-image {
-        margin-right: 10px;
-        
-    }
-
+   .photos {
+       display: flex;
+       flex-wrap: wrap;
+   }
 
 
 
