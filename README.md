@@ -12,7 +12,7 @@ whenever I actually get one.
 ## code snippet (example of media query)
 ```CSS
 
-    
+
 @media screen and (max-width: 768px) {
     
 
@@ -31,7 +31,7 @@ whenever I actually get one.
     }
 
     .nav-link {
-        text-decoration: underline red;
+        text-decoration: underline;
         
         
     }
@@ -50,8 +50,7 @@ whenever I actually get one.
     
     .work {
         min-width: 500px;
-        display: flex;
-        flex-wrap: wrap;
+       
     }
 
     .about-me {
@@ -61,22 +60,22 @@ whenever I actually get one.
     .surf-image, .surf {
         max-height: 300px;
         max-width: 300px;
-              
+        
         
     }
 
     .surf-text {
         text-align: center;
         position: absolute;
-        top: 30%;
-        left: 15%;
+        top: 40%;
+        left: 10%;
         font-size: 50px;  
     }
 
-    .photos {
-        margin-left: 100px;
-    }
-   
+    .surf {
+        position: relative;
+        right: 105px;
+    }  
 }
 ```
 

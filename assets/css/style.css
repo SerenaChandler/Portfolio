@@ -290,7 +290,7 @@ a:visited {
     }
 
     .nav-link {
-        text-decoration: underline red;
+        text-decoration: underline;
         
         
     }
@@ -335,15 +335,7 @@ a:visited {
        flex-wrap: wrap;
    }
 
-
-
-
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 768px) {
